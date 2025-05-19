@@ -30,7 +30,7 @@ void loop() {
 
   if (digitalRead(btnPedra) == HIGH) {
     escolha2 = "Pedra";
-    delay(300);  // Debounce
+    delay(300); 
   } else if (digitalRead(btnPapel) == HIGH) {
     escolha2 = "Papel";
     delay(300);
@@ -42,9 +42,9 @@ void loop() {
   if (escolha1 != "" && escolha2 != "") {
     lcd.clear();
     lcd.setCursor(0, 0);
-    lcd.print("P1: " + escolha1);
+    lcd.print("J1: " + escolha1);
     lcd.setCursor(0, 1);
-    lcd.print("P2: " + escolha2);
+    lcd.print("J2: " + escolha2);
 
     delay(2000); 
 
