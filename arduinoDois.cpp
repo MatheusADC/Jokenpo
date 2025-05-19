@@ -71,8 +71,8 @@ String verificaVencedor(String p1, String p2) {
   if ((p1 == "Pedra" && p2 == "Tesoura") ||
       (p1 == "Papel" && p2 == "Pedra") ||
       (p1 == "Tesoura" && p2 == "Papel")) {
-    return "Jog1 vence!";
+    return "Jog1 venceu!";
   } else {
-    return "Jog2 vence!";
+    return "Jog2 venceu!";
   }
 }
