@@ -12,7 +12,7 @@ void setup() {
 void loop() {
   if (digitalRead(btnPedra) == HIGH) {
     Serial.println("Pedra");
-    delay(500);  // Debounce
+    delay(500); 
   }
 
   if (digitalRead(btnPapel) == HIGH) {
